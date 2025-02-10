@@ -1,17 +1,10 @@
 # ninja log v6
 2	116	7608954518124503	CMakeFiles/C_Exercises.dir/main.c.obj	d0a55383f7e131e9
 21	101	7609000492402911	day_by_integer/CMakeFiles/day_by_integer.dir/main.c.obj	4b98f18806e196fd
-12	270	7609083574783611	build.ninja	e60d13dcf0e94294
+12	270	7609128229103022	build.ninja	e60d13dcf0e94294
 117	291	7608954519270235	C_Exercises.exe	8f4be4b67c81a91f
 26	89	7608956977317973	CMakeFiles/C_Exercises.dir/day_by_integer/main.c.obj	e9e166bd6f87aa0
 36	101	7608955441219090	CMakeFiles/C_Exercises.dir/day_by_integer/day_by_integer.c.obj	6088495d25b6dfa2
 102	202	7609000493219670	day_by_integer/day_by_integer.exe	509a2fe229d14c6d
-3	107	7609096700269420	integer_investigation_ex2/CMakeFiles/integer_investigation_ex2.dir/main.c.obj	1275cd0297c137e3
-107	210	7609096701312412	integer_investigation_ex2/integer_investigation_ex2.exe	3c21ec2454ce8dab
-5	92	7609113324621522	integer_investigation_ex2/CMakeFiles/integer_investigation_ex2.dir/main.c.obj	1275cd0297c137e3
-4	75	7609113648877925	integer_investigation_ex2/CMakeFiles/integer_investigation_ex2.dir/main.c.obj	1275cd0297c137e3
-75	161	7609113649600133	integer_investigation_ex2/integer_investigation_ex2.exe	3c21ec2454ce8dab
-3	85	7609115914057524	integer_investigation_ex2/CMakeFiles/integer_investigation_ex2.dir/main.c.obj	1275cd0297c137e3
-86	172	7609115914885843	integer_investigation_ex2/integer_investigation_ex2.exe	3c21ec2454ce8dab
 4	78	7609116006224599	integer_investigation_ex2/CMakeFiles/integer_investigation_ex2.dir/main.c.obj	1275cd0297c137e3
 79	179	7609116006966323	integer_investigation_ex2/integer_investigation_ex2.exe	3c21ec2454ce8dab

@@ -3,4 +3,4 @@ project(day_by_integer C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(day_by_integer main.c)
+add_executable(day_by_integer_lesson2 main.c)

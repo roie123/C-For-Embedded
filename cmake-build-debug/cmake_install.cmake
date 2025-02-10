@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/day_by_integer/cmake_install.cmake")
+  include("C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/day_by_integer_lesson2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2/cmake_install.cmake")
+  include("C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2_lesson2/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

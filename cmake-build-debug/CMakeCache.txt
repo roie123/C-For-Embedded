@@ -223,13 +223,13 @@ C_Exercises_IS_TOP_LEVEL:STATIC=ON
 C_Exercises_SOURCE_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises
 
 //Value Computed by CMake
-day_by_integer_BINARY_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2
+day_by_integer_BINARY_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2_lesson2
 
 //Value Computed by CMake
 day_by_integer_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-day_by_integer_SOURCE_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/integer_investigation_ex2
+day_by_integer_SOURCE_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/integer_investigation_ex2_lesson2
 
 
 ########################
