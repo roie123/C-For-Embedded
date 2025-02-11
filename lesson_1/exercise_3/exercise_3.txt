@@ -1,0 +1,26 @@
+
+
+
+
+
+3. What is the bug in each one of the programs:
+
+Program A:
+int main(){
+int x, y = 0;
+printf("x / y = %d\n", x / y);
+return 0;
+}
+
+THE BUG : We are trying to divide a number(doesnt matter if its 0) by zero, this will cause an undefined behavior, a runtime error
+
+
+Program B:
+void main(){
+int a, b;
+printf("%d + %d = %d\n", a, b, a + b);
+return 0;
+}
+THE BUG : we did declare a&b but we didn't initialize them, when we print them it wiil print whatever it was in the address,
+but the actual error is when we try to do any operation on an uninitialized variable it wiil lead to unexpected results or a crash
+if we instead make them external instead they will be initialized to 0.
