@@ -1,7 +1,7 @@
 # ninja log v6
 2	116	7608954518124503	CMakeFiles/C_Exercises.dir/main.c.obj	d0a55383f7e131e9
 21	101	7609000492402911	day_by_integer/CMakeFiles/day_by_integer.dir/main.c.obj	4b98f18806e196fd
-12	270	7609128229103022	build.ninja	e60d13dcf0e94294
+12	270	7609990549262500	build.ninja	e60d13dcf0e94294
 117	291	7608954519270235	C_Exercises.exe	8f4be4b67c81a91f
 26	89	7608956977317973	CMakeFiles/C_Exercises.dir/day_by_integer/main.c.obj	e9e166bd6f87aa0
 36	101	7608955441219090	CMakeFiles/C_Exercises.dir/day_by_integer/day_by_integer.c.obj	6088495d25b6dfa2

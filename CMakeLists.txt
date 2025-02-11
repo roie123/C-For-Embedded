@@ -4,5 +4,6 @@ project(C_Exercises C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(C_Exercises main.c)
-add_subdirectory(day_by_integer_lesson2)
-add_subdirectory(integer_investigation_ex2_lesson2)
+add_subdirectory(lesson_1/exercise_1)
+add_subdirectory(lesson_2)
+add_subdirectory(template_for_exercises)

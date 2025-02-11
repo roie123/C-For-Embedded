@@ -1,9 +1,11 @@
 C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/CMakeFiles/C_Exercises.dir
 C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/day_by_integer_lesson2/CMakeFiles/day_by_integer_lesson2.dir
-C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/day_by_integer_lesson2/CMakeFiles/edit_cache.dir
-C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/day_by_integer_lesson2/CMakeFiles/rebuild_cache.dir
-C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2_lesson2/CMakeFiles/integer_investigation_ex2_lesson2.dir
-C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2_lesson2/CMakeFiles/edit_cache.dir
-C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2_lesson2/CMakeFiles/rebuild_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_1/exercise_1/CMakeFiles/exercise_1.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_1/exercise_1/CMakeFiles/edit_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_1/exercise_1/CMakeFiles/rebuild_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2/CMakeFiles/lesson_2.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2/CMakeFiles/edit_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2/CMakeFiles/rebuild_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/template_for_exercises/CMakeFiles/edit_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/template_for_exercises/CMakeFiles/rebuild_cache.dir

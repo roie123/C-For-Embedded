@@ -102,60 +102,60 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target day_by_integer_lesson2
+# Object build statements for EXECUTABLE target exercise_1
 
 
 #############################################
-# Order-only phony target for day_by_integer_lesson2
+# Order-only phony target for exercise_1
 
-build cmake_object_order_depends_target_day_by_integer_lesson2: phony || .
+build cmake_object_order_depends_target_exercise_1: phony || .
 
-build day_by_integer_lesson2/CMakeFiles/day_by_integer_lesson2.dir/main.c.obj: C_COMPILER__day_by_integer_lesson2_unscanned_Debug C$:/Users/Roy/Desktop/C$ Exercises/day_by_integer_lesson2/main.c || cmake_object_order_depends_target_day_by_integer_lesson2
-  DEP_FILE = day_by_integer_lesson2\CMakeFiles\day_by_integer_lesson2.dir\main.c.obj.d
+build lesson_1/exercise_1/CMakeFiles/exercise_1.dir/main.c.obj: C_COMPILER__exercise_1_unscanned_Debug C$:/Users/Roy/Desktop/C$ Exercises/lesson_1/exercise_1/main.c || cmake_object_order_depends_target_exercise_1
+  DEP_FILE = lesson_1\exercise_1\CMakeFiles\exercise_1.dir\main.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = day_by_integer_lesson2\CMakeFiles\day_by_integer_lesson2.dir
-  OBJECT_FILE_DIR = day_by_integer_lesson2\CMakeFiles\day_by_integer_lesson2.dir
+  OBJECT_DIR = lesson_1\exercise_1\CMakeFiles\exercise_1.dir
+  OBJECT_FILE_DIR = lesson_1\exercise_1\CMakeFiles\exercise_1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target day_by_integer_lesson2
+# Link build statements for EXECUTABLE target exercise_1
 
 
 #############################################
-# Link the executable day_by_integer_lesson2\day_by_integer_lesson2.exe
+# Link the executable lesson_1\exercise_1\exercise_1.exe
 
-build day_by_integer_lesson2/day_by_integer_lesson2.exe: C_EXECUTABLE_LINKER__day_by_integer_lesson2_Debug day_by_integer_lesson2/CMakeFiles/day_by_integer_lesson2.dir/main.c.obj
+build lesson_1/exercise_1/exercise_1.exe: C_EXECUTABLE_LINKER__exercise_1_Debug lesson_1/exercise_1/CMakeFiles/exercise_1.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = day_by_integer_lesson2\CMakeFiles\day_by_integer_lesson2.dir
+  OBJECT_DIR = lesson_1\exercise_1\CMakeFiles\exercise_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = day_by_integer_lesson2\day_by_integer_lesson2.exe
-  TARGET_IMPLIB = day_by_integer_lesson2\libday_by_integer_lesson2.dll.a
-  TARGET_PDB = day_by_integer_lesson2.exe.dbg
+  TARGET_FILE = lesson_1\exercise_1\exercise_1.exe
+  TARGET_IMPLIB = lesson_1\exercise_1\libexercise_1.dll.a
+  TARGET_PDB = exercise_1.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build day_by_integer_lesson2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\day_by_integer_lesson2" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build lesson_1/exercise_1/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\lesson_1\exercise_1" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build day_by_integer_lesson2/edit_cache: phony day_by_integer_lesson2/CMakeFiles/edit_cache.util
+build lesson_1/exercise_1/edit_cache: phony lesson_1/exercise_1/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build day_by_integer_lesson2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\day_by_integer_lesson2" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Roy\Desktop\C Exercises" -B"C:\Users\Roy\Desktop\C Exercises\cmake-build-debug""
+build lesson_1/exercise_1/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\lesson_1\exercise_1" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Roy\Desktop\C Exercises" -B"C:\Users\Roy\Desktop\C Exercises\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build day_by_integer_lesson2/rebuild_cache: phony day_by_integer_lesson2/CMakeFiles/rebuild_cache.util
+build lesson_1/exercise_1/rebuild_cache: phony lesson_1/exercise_1/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -163,73 +163,101 @@ build day_by_integer_lesson2/rebuild_cache: phony day_by_integer_lesson2/CMakeFi
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target integer_investigation_ex2_lesson2
+# Object build statements for EXECUTABLE target lesson_2
 
 
 #############################################
-# Order-only phony target for integer_investigation_ex2_lesson2
+# Order-only phony target for lesson_2
 
-build cmake_object_order_depends_target_integer_investigation_ex2_lesson2: phony || .
+build cmake_object_order_depends_target_lesson_2: phony || .
 
-build integer_investigation_ex2_lesson2/CMakeFiles/integer_investigation_ex2_lesson2.dir/main.c.obj: C_COMPILER__integer_investigation_ex2_lesson2_unscanned_Debug C$:/Users/Roy/Desktop/C$ Exercises/integer_investigation_ex2_lesson2/main.c || cmake_object_order_depends_target_integer_investigation_ex2_lesson2
-  DEP_FILE = integer_investigation_ex2_lesson2\CMakeFiles\integer_investigation_ex2_lesson2.dir\main.c.obj.d
+build lesson_2/CMakeFiles/lesson_2.dir/main.c.obj: C_COMPILER__lesson_2_unscanned_Debug C$:/Users/Roy/Desktop/C$ Exercises/lesson_2/main.c || cmake_object_order_depends_target_lesson_2
+  DEP_FILE = lesson_2\CMakeFiles\lesson_2.dir\main.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
-  OBJECT_DIR = integer_investigation_ex2_lesson2\CMakeFiles\integer_investigation_ex2_lesson2.dir
-  OBJECT_FILE_DIR = integer_investigation_ex2_lesson2\CMakeFiles\integer_investigation_ex2_lesson2.dir
+  OBJECT_DIR = lesson_2\CMakeFiles\lesson_2.dir
+  OBJECT_FILE_DIR = lesson_2\CMakeFiles\lesson_2.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target integer_investigation_ex2_lesson2
+# Link build statements for EXECUTABLE target lesson_2
 
 
 #############################################
-# Link the executable integer_investigation_ex2_lesson2\integer_investigation_ex2_lesson2.exe
+# Link the executable lesson_2\lesson_2.exe
 
-build integer_investigation_ex2_lesson2/integer_investigation_ex2_lesson2.exe: C_EXECUTABLE_LINKER__integer_investigation_ex2_lesson2_Debug integer_investigation_ex2_lesson2/CMakeFiles/integer_investigation_ex2_lesson2.dir/main.c.obj
+build lesson_2/lesson_2.exe: C_EXECUTABLE_LINKER__lesson_2_Debug lesson_2/CMakeFiles/lesson_2.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = integer_investigation_ex2_lesson2\CMakeFiles\integer_investigation_ex2_lesson2.dir
+  OBJECT_DIR = lesson_2\CMakeFiles\lesson_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = integer_investigation_ex2_lesson2\integer_investigation_ex2_lesson2.exe
-  TARGET_IMPLIB = integer_investigation_ex2_lesson2\libinteger_investigation_ex2_lesson2.dll.a
-  TARGET_PDB = integer_investigation_ex2_lesson2.exe.dbg
+  TARGET_FILE = lesson_2\lesson_2.exe
+  TARGET_IMPLIB = lesson_2\liblesson_2.dll.a
+  TARGET_PDB = lesson_2.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build integer_investigation_ex2_lesson2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\integer_investigation_ex2_lesson2" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build lesson_2/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\lesson_2" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build integer_investigation_ex2_lesson2/edit_cache: phony integer_investigation_ex2_lesson2/CMakeFiles/edit_cache.util
+build lesson_2/edit_cache: phony lesson_2/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build integer_investigation_ex2_lesson2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\integer_investigation_ex2_lesson2" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Roy\Desktop\C Exercises" -B"C:\Users\Roy\Desktop\C Exercises\cmake-build-debug""
+build lesson_2/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\lesson_2" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Roy\Desktop\C Exercises" -B"C:\Users\Roy\Desktop\C Exercises\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build integer_investigation_ex2_lesson2/rebuild_cache: phony integer_investigation_ex2_lesson2/CMakeFiles/rebuild_cache.util
+build lesson_2/rebuild_cache: phony lesson_2/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Roy/Desktop/C Exercises/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build template_for_exercises/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\template_for_exercises" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build template_for_exercises/edit_cache: phony template_for_exercises/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build template_for_exercises/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Roy\Desktop\C Exercises\cmake-build-debug\template_for_exercises" && "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Roy\Desktop\C Exercises" -B"C:\Users\Roy\Desktop\C Exercises\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build template_for_exercises/rebuild_cache: phony template_for_exercises/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
 build C_Exercises: phony C_Exercises.exe
 
-build day_by_integer_lesson2: phony day_by_integer_lesson2/day_by_integer_lesson2.exe
+build exercise_1: phony lesson_1/exercise_1/exercise_1.exe
 
-build day_by_integer_lesson2.exe: phony day_by_integer_lesson2/day_by_integer_lesson2.exe
+build exercise_1.exe: phony lesson_1/exercise_1/exercise_1.exe
 
-build integer_investigation_ex2_lesson2: phony integer_investigation_ex2_lesson2/integer_investigation_ex2_lesson2.exe
+build lesson_2: phony lesson_2/lesson_2.exe
 
-build integer_investigation_ex2_lesson2.exe: phony integer_investigation_ex2_lesson2/integer_investigation_ex2_lesson2.exe
+build lesson_2.exe: phony lesson_2/lesson_2.exe
 
 # =============================================================================
 # Folder targets.
@@ -239,21 +267,28 @@ build integer_investigation_ex2_lesson2.exe: phony integer_investigation_ex2_les
 #############################################
 # Folder: C:/Users/Roy/Desktop/C Exercises/cmake-build-debug
 
-build all: phony C_Exercises.exe day_by_integer_lesson2/all integer_investigation_ex2_lesson2/all
+build all: phony C_Exercises.exe lesson_1/exercise_1/all lesson_2/all template_for_exercises/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/day_by_integer_lesson2
+# Folder: C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_1/exercise_1
 
-build day_by_integer_lesson2/all: phony day_by_integer_lesson2/day_by_integer_lesson2.exe
+build lesson_1/exercise_1/all: phony lesson_1/exercise_1/exercise_1.exe
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/integer_investigation_ex2_lesson2
+# Folder: C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2
 
-build integer_investigation_ex2_lesson2/all: phony integer_investigation_ex2_lesson2/integer_investigation_ex2_lesson2.exe
+build lesson_2/all: phony lesson_2/lesson_2.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/template_for_exercises
+
+build template_for_exercises/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -262,14 +297,14 @@ build integer_investigation_ex2_lesson2/all: phony integer_investigation_ex2_les
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Roy/Desktop/C$ Exercises/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/day_by_integer_lesson2/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/integer_investigation_ex2_lesson2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Roy/Desktop/C$ Exercises/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/lesson_1/exercise_1/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/lesson_2/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/template_for_exercises/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Roy/Desktop/C$ Exercises/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/day_by_integer_lesson2/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/integer_investigation_ex2_lesson2/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake C$:/Users/Roy/Desktop/C$ Exercises/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/lesson_1/exercise_1/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/lesson_2/CMakeLists.txt C$:/Users/Roy/Desktop/C$ Exercises/template_for_exercises/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake: phony
 
 
 #############################################
