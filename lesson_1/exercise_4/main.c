@@ -2,7 +2,7 @@
 /**
  * @file main.c
  * @brief
- * This exerise i about getting an input from the user in the form of char, and giving some info on it.
+ * This exercise is about getting an input from the user in the form of char, and giving some info on it.
  * including some casting into char and int
  * @author Roie Natan Ivri
  * @date 11/02/2025 21:44
