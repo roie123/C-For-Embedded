@@ -9,3 +9,6 @@ C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2/CMakeFiles/edit_cach
 C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2/CMakeFiles/rebuild_cache.dir
 C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/template_for_exercises/CMakeFiles/edit_cache.dir
 C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/template_for_exercises/CMakeFiles/rebuild_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/leetcode/CMakeFiles/leetcode.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/leetcode/CMakeFiles/edit_cache.dir
+C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/leetcode/CMakeFiles/rebuild_cache.dir

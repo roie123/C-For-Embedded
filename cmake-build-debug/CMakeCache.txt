@@ -214,13 +214,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-C_Exercises_BINARY_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2
+C_Exercises_BINARY_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/leetcode
 
 //Value Computed by CMake
 C_Exercises_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-C_Exercises_SOURCE_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/lesson_2
+C_Exercises_SOURCE_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/leetcode
 
 //Value Computed by CMake
 day_by_integer_BINARY_DIR:STATIC=C:/Users/Roy/Desktop/C Exercises/cmake-build-debug/lesson_2/integer_investigation_ex2_lesson2
@@ -325,7 +325,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

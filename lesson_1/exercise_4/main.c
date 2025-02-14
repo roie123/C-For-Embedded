@@ -18,7 +18,7 @@ int main(void) {
     char selected_char;
     printf("Enter a character: ");
     scanf("%c" , &selected_char);
-    printf("%d \n", (int*)selected_char);// using casting, the 'char' is just a number in another representation
+    printf("%d \n", selected_char);// using another format, the 'char' is just a number in another representation
     printf("The Character is %c \n", selected_char);
     printf("The next character is  %c \n", (selected_char+1)); // using the %c format for char
 
