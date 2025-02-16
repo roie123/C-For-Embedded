@@ -4,3 +4,4 @@ project(C_Exercises C)
 set(CMAKE_C_STANDARD 99)
 
 add_executable(palindrome_number.c)
+add_executable(easy valid_palindrome.c)

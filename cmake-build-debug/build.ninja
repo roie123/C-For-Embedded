@@ -177,6 +177,12 @@ build lesson_2/CMakeFiles/lesson_2.dir/main.c.obj: C_COMPILER__lesson_2_unscanne
   OBJECT_DIR = lesson_2\CMakeFiles\lesson_2.dir
   OBJECT_FILE_DIR = lesson_2\CMakeFiles\lesson_2.dir
 
+build lesson_2/CMakeFiles/lesson_2.dir/ex1.c.obj: C_COMPILER__lesson_2_unscanned_Debug C$:/Users/Roy/Desktop/C$ Exercises/lesson_2/ex1.c || cmake_object_order_depends_target_lesson_2
+  DEP_FILE = lesson_2\CMakeFiles\lesson_2.dir\ex1.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = lesson_2\CMakeFiles\lesson_2.dir
+  OBJECT_FILE_DIR = lesson_2\CMakeFiles\lesson_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lesson_2
@@ -185,7 +191,7 @@ build lesson_2/CMakeFiles/lesson_2.dir/main.c.obj: C_COMPILER__lesson_2_unscanne
 #############################################
 # Link the executable lesson_2\lesson_2.exe
 
-build lesson_2/lesson_2.exe: C_EXECUTABLE_LINKER__lesson_2_Debug lesson_2/CMakeFiles/lesson_2.dir/main.c.obj
+build lesson_2/lesson_2.exe: C_EXECUTABLE_LINKER__lesson_2_Debug lesson_2/CMakeFiles/lesson_2.dir/main.c.obj lesson_2/CMakeFiles/lesson_2.dir/ex1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = lesson_2\CMakeFiles\lesson_2.dir
@@ -272,6 +278,12 @@ build leetcode/CMakeFiles/leetcode.dir/easy/palindrome_number.c.obj: C_COMPILER_
   OBJECT_DIR = leetcode\CMakeFiles\leetcode.dir
   OBJECT_FILE_DIR = leetcode\CMakeFiles\leetcode.dir\easy
 
+build leetcode/CMakeFiles/leetcode.dir/easy/valid_palindrome.c.obj: C_COMPILER__leetcode_unscanned_Debug C$:/Users/Roy/Desktop/C$ Exercises/leetcode/easy/valid_palindrome.c || cmake_object_order_depends_target_leetcode
+  DEP_FILE = leetcode\CMakeFiles\leetcode.dir\easy\valid_palindrome.c.obj.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = leetcode\CMakeFiles\leetcode.dir
+  OBJECT_FILE_DIR = leetcode\CMakeFiles\leetcode.dir\easy
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target leetcode
@@ -280,7 +292,7 @@ build leetcode/CMakeFiles/leetcode.dir/easy/palindrome_number.c.obj: C_COMPILER_
 #############################################
 # Link the executable leetcode\leetcode.exe
 
-build leetcode/leetcode.exe: C_EXECUTABLE_LINKER__leetcode_Debug leetcode/CMakeFiles/leetcode.dir/main.c.obj leetcode/CMakeFiles/leetcode.dir/easy/palindrome_number.c.obj
+build leetcode/leetcode.exe: C_EXECUTABLE_LINKER__leetcode_Debug leetcode/CMakeFiles/leetcode.dir/main.c.obj leetcode/CMakeFiles/leetcode.dir/easy/palindrome_number.c.obj leetcode/CMakeFiles/leetcode.dir/easy/valid_palindrome.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = leetcode\CMakeFiles\leetcode.dir
