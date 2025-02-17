@@ -1,5 +1,18 @@
 #include <stdio.h>
 #include <math.h>
+/**
+ * @file main.c
+ * @brief this program will run some checks on two integers
+ *
+ * @author Roie Natan Ivri
+ * @date 17/02/2025 20:48
+ * @version 1.0
+ *
+ * @details
+ *
+ *
+ */
+
 
 int checkIfOdd(int num);
 
