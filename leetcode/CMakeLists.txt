@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(leetcode main.c
         easy/palindrome_number.c
-        easy/valid_palindrome.c)
+        easy/valid_palindrome.c
+        easy/roman_to_integer.c)
