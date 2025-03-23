@@ -7,4 +7,5 @@ add_executable(leetcode main.c
         easy/palindrome_number.c
         easy/valid_palindrome.c
         easy/roman_to_integer.c
-        easy/remove_element.c)
+        easy/remove_element.c
+        easy/remove_all_adjacent_duplicates_in_string.c)
