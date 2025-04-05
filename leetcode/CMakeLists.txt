@@ -9,4 +9,6 @@ add_executable(leetcode main.c
         easy/roman_to_integer.c
         easy/remove_element.c
         easy/remove_all_adjacent_duplicates_in_string.c
-        easy/Find_the_Index_of_the_First_Occurrence_in_a_String.c)
+        easy/Find_the_Index_of_the_First_Occurrence_in_a_String.c
+        easy/search_insert_position.c
+    )
