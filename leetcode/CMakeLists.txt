@@ -12,4 +12,5 @@ add_executable(leetcode main.c
         easy/Find_the_Index_of_the_First_Occurrence_in_a_String.c
         easy/search_insert_position.c
         easy/length_of_last_word.c
+        easy/add_binary.c
     )
