@@ -39,7 +39,6 @@ char* addBinary(char* a, char* b) {
         int bit_b = (b_length >= 0) ? b[b_length] - '0' : 0;
 
         int sum = bit_a + bit_b + carry;
-        printf("i: %d, j: %d, carry: %d, k: %d\n", a_length, b_length, carry, k);
 
         arr[k++] = (sum % 2) +'0';
 
