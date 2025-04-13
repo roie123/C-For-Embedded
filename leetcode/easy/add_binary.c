@@ -1,119 +1,71 @@
-/*
-*Given two binary strings a and b, return their sum as a binary string.
-
-
-
-Example 1:
-
-Input: a = "11", b = "1"
-Output: "100"
-Example 2:
-
-Input: a = "1010", b = "1011"
-Output: "10101"
-
-
-Constraints:
-
-1 <= a.length, b.length <= 104
-a and b consist only of '0' or '1' characters.
-Each string does not contain leading zeros except for the zero itself.
- *
- *
- *
- *
- *
- */
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-char* addBinary(char *a, char *b) {
+int max(int a, int b) {
+    return a > b ? a : b;
+}
+void reverseString(char* str) {
+    int start = 0;
+    int end = strlen(str) - 1;
+
+    while (start < end) {
+        char temp = str[start];
+        str[start] = str[end];
+        str[end] = temp;
+
+        start++;
+        end--;
+    }
+}
+
+
+char* addBinary(char* a, char* b) {
+
 
     char *p_a = a;
     char *p_b = b;
-    int capacity =10;
-    char *arr = (char*) malloc(capacity * sizeof(char));
-    if (arr == NULL) {
-        return p_a;
-    }
-    int counter = 0;
-    int sum =0;
-    int leftover = 0;
-    while (*p_a != '\0' || *p_b != '\0' || leftover != 0) {
-        if (*p_a=='\0') {
-            if (*p_b == '\0') {
-                sum = leftover;
-            }else {
-                sum =  (*p_b-48)+leftover ;
+    int a_length = strlen(a)-1;
+    int b_length = strlen(b)-1;
+    int capacity = max(a_length,  b_length) + 1;
+    int carry =0;
+    char *arr = malloc(capacity+3);
 
-            }
-        }else if (*p_b=='\0') {
+    int k=0;
 
-            sum = (*p_a-48) +leftover ;
-        }
-        if (*p_b!='\0' && *p_a!='\0' ) {
-            sum = (*p_a-48) + (*p_b-48)+leftover ;
 
-        }
+    while (a_length>=0 || b_length>=0 || carry) {
+        int bit_a = (a_length >= 0) ? a[a_length] - '0' : 0;
+        int bit_b = (b_length >= 0) ? b[b_length] - '0' : 0;
 
-        if (counter+1==capacity) {
-            char *temp = (char*) realloc(arr, capacity*2 * sizeof(char));
-            if (temp == NULL) {
-                return p_a;
-            }
-            arr = temp;
-        }
-        if (sum ==0) {
+        int sum = bit_a + bit_b + carry;
+        printf("i: %d, j: %d, carry: %d, k: %d\n", a_length, b_length, carry, k);
 
-            arr[counter] = '0';
-            counter++;
-            leftover=0;
-        }
-        if (sum==1) {
-            arr[counter] = '1';
-            counter++;
-            leftover=0;
-        }
-        if (sum==2) {
-            arr[counter] = '0';
-            counter++;
-            leftover=1;
-        }
+        arr[k++] = (sum % 2) +'0';
 
-        if (*p_a!='\0') p_a++;
-        if (*p_b!='\0') p_b++;
+
+        carry = sum / 2;
+        a_length--;
+        b_length--;
+
+
 
     }
+    arr[k]='\0';
 
 
-    arr[counter] = '\0';
-    int len = strlen(arr);
-    counter=0;
-    while (counter<len) {
-        char temp = arr[counter];
-        arr[counter] = arr[len-1];
-        arr[len-1] = temp;
-        counter++;
-        len--;
-
-    }
+    reverseString(arr);
 
 
     return arr;
 }
 
+
 int main() {
+char a[] = "11";
+char b[] = "1";
+
+printf("%s\n", addBinary(a, b));
 
 
-    char s[] = "1111";
-    char s2[] = "1111";
-    char *result = addBinary(s, s2);
-    if (result != NULL) {
-        printf("%s\n", result);
-    } else {
-        printf("Error: addBinary failed\n");
-    }
 }
