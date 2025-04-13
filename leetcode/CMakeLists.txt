@@ -13,4 +13,6 @@ add_executable(leetcode main.c
         easy/search_insert_position.c
         easy/length_of_last_word.c
         easy/add_binary.c
+        easy/sqrt9(x).c
+        easy/sqrt9(x)_better.c
     )
