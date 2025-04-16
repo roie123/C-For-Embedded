@@ -17,4 +17,5 @@ add_executable(leetcode main.c
         easy/sqrt9(x)_better.c
         easy/climbing_stairs.c
         easy/climbing_stairs_not_recursive.c
+        easy/remove-duplicates_from_sorted_list.c
     )
