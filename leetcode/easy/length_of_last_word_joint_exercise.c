@@ -1,5 +1,7 @@
+#include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include <string.h>
 
 
 /*Given a string s consisting of words and spaces, return the length of the last word in the string.
@@ -37,31 +39,25 @@ There will be at least one word in s.
  *
  */
 
-int lengthOfLastWord(char* s) {
-    char *p = s;
-    char *temp = s;
-    int last_length = 0;;
-
-    if (*s == '\0') {
+int lengthOfLastWord(char *s) {
+    char *p = s + strlen(s) - 1;
+    int counter = 0;
+    if (*p == '\0') {
         return 0;
     }
 
-    while (*p != '\0') {
-        if (*p == ' ') {
-            if (!(*(p + 1) == '\0' || *(p + 1) == ' ')) {
-                last_length = 0;
-            }
-            temp = p;
+    while (p > s) {
+        if (isalnum(*p)) {
+            counter++;
             p++;
             continue;
         }
-        last_length++;
-
-        p++;
+        if (counter != 0 && !isalnum(*p)) {
+            return counter;
+        }
+        p--;
     }
-
-
-    return last_length;
+    return counter;
 }
 
 
