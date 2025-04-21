@@ -20,4 +20,5 @@ add_executable(leetcode main.c
         easy/remove-duplicates_from_sorted_list.c
         easy/valid_palindrom.c
         easy/length_of_last_word_joint_exercise.c
+        easy/binary-tree-inorder-traversal.c
     )
