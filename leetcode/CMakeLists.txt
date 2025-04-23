@@ -22,4 +22,5 @@ add_executable(leetcode main.c
         easy/length_of_last_word_joint_exercise.c
         easy/binary-tree-inorder-traversal.c
         easy/happy-number.c
+        medium/longest-substring-without-repeating-characters.c
     )
