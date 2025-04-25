@@ -23,4 +23,5 @@ add_executable(leetcode main.c
         easy/binary-tree-inorder-traversal.c
         easy/happy-number.c
         medium/longest-substring-without-repeating-characters.c
+        medium/longest-palindromic-substring.c
     )
